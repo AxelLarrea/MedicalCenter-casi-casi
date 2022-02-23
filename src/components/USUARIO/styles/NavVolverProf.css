@@ -1,0 +1,20 @@
+.filtros-volver{
+    display: none;
+    position: absolute;
+    left: 70%;
+    top: 97.5px;
+}
+
+.filtros-volver .volver button{
+    width: 100px;
+    height: 25px;
+    border: 0;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .filtros-volver{
+        display: block;
+    }
+}
